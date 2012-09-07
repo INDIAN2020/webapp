@@ -6,6 +6,6 @@
 </head>
 <body>
 
-	<p>hello,world</p>
+	<p>hello,{$receiver|upper}! It's {$date|date_format:"%d %B"} today!</p>
 
 </html>
